@@ -1,0 +1,8 @@
+This is sample text.
+{$       FOR        i      1   10 1         $}
+  This is {$     =i$}-th time this message is generated.
+{$  END           $}
+{$   FOR i2_34 0.4245-1.0"\\2"     $}
+  sin({$=i$}^2) = {$= i     i*@sin"Double: \"0.000\"""Integer: -2"@decfmt $}
+{$END$}
+{$    = var32_-32.54- + 2123-"\"int\\"@f@e23-21 $}{$= $}

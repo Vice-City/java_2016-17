@@ -1,0 +1,54 @@
+body {
+	font-family: Calibri, sans-serif;
+}
+
+div {
+	margin: 10px;
+}
+
+.picture {
+	margin-top: 10 px;
+	margin-bottom: 10 px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info {
+	font-size: 20px;
+	background-color: #becefd;
+	padding: 10px;
+	border-radius: 6px;
+	width: 50vw;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button {
+    background-color: #4169E1;
+    color: white;
+    border: none;
+    margin: 3px;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+button:HOVER {
+	background-color: black;
+	cursor: pointer;
+}
+
+.thumbnail {
+	margin: 5px;
+	padding: 5px;
+	border: dashed;
+	border-color: #4169E1;
+}
+
+.thumbnail:HOVER {
+	border: solid;
+	border-color: #4169E1;
+	cursor: pointer;
+}
+

@@ -1,0 +1,5 @@
+Glasanje za omiljenu životinju	Od sljedećih životinja, koja vam je najdraža?
+1	Vuk	http://i.imgur.com/h5ykMyf.jpg
+2	Lav	http://i.imgur.com/nfgG6Yr.jpg
+3	Zmaj	http://i.imgur.com/DBmVb.jpg
+4	Jelen	http://i.imgur.com/aQLKyJm.jpg

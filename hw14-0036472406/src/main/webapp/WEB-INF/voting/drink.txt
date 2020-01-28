@@ -1,0 +1,4 @@
+Glasanje za omiljeno piće	Od sljedećih pića, koje vam je najdraže?
+1	Voda	http://i.imgur.com/5LkCi7j.jpg
+2	Coca-Cola	http://i.imgur.com/UC1X54d.jpg
+3	Jamnica	http://i.imgur.com/FhXY0Ok.jpg

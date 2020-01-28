@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Pokémon starter gallery</title>
+		
+		<style type="text/css">
+	  		@import url("/galerija/style.css");
+		</style>
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- 		<script type="text/javascript" src="js/htmlescaping.js"></script> -->
+		<script type="text/javascript"><!--
+		  // vidi: http://www.w3schools.com/ajax/default.asp
+
+		  // dolar je ovdje varijabla! Pristup prema jqueryju
+		  $(document).ready( 
+			  function() {
+				  $.ajax({
+				  	url: "servlets/tags",
+				  	dataType: "json",
+				  	success: function(tags) {
+				  		var html = "";
+				  		
+				  		if (tags.length == 0) {
+				  			html = "No tags available...";
+				  		} else {
+				  			for (var i = 0; i < tags.length; i++) {
+				  				html += "<button type='button' id='"+tags[i]+"'  onclick='loadThumbnails(this.id)'    >"+tags[i]+"</button>";
+				  			}
+				  		}
+				  		$("#tags").html(html);
+				  	}
+				  });
+			  }
+		  );
+		  
+		  
+		  function loadThumbnails(tag) {
+			  $.ajax({
+			  	url: "servlets/thumbnails",
+			  	data: {"tag": tag},
+			  	dataType: "json",
+			  	success: function(thumbnailUrls) {
+			  		var html = "";
+			  		
+			  		if (thumbnailUrls.length == 0) {
+			  			html = "No thumbnails available..."
+			  		} else {
+			  			for (var i = 0; i < thumbnailUrls.length; i++) {
+			  				html += "<img class='thumbnail' src='servlets/thumbnail?url="+thumbnailUrls[i]+"' id='"+thumbnailUrls[i]+"' onclick='loadPicture(this.id)'>";
+			  				//html += "<button type='button'  >Load</button>";
+			  			}
+			  		}
+			  		$("#thumbnails").html(html);
+			  	}
+			  });
+		  }
+		  
+		  function loadPicture(url) {
+			  $.ajax({
+			  	url: "servlets/pictureInfo",
+			  	data: {"url": url},
+			  	dataType: "json",
+			  	success: function(picture) {
+			  		var html = "";
+			  		console.log(picture.url);
+			  		
+			  		if (picture == undefined) {
+			  			html = "No picture available..."
+			  		} else {
+			  			html += "<div class='info'>Name: "+ picture.description + "<br>";
+		  				html += "Tags: "+ picture.tags +"</div>";
+			  			html += "<img class='picture' src='servlets/picture?url="+picture.url+"' >";
+			  			
+			  		}
+			  		$("#pictureContainer").html(html);
+			  	}
+			  });
+		  }
+		  
+		//--></script>
+	</head>
+	<body>
+	
+		<h1>Pokemon gallery</h1>
+		
+		<div id="tags">&nbsp;</div>
+		
+		<div id="thumbnails">&nbsp;</div>
+		
+		<div id="pictureContainer">&nbsp;</div>
+		
+	</body>
+</html>

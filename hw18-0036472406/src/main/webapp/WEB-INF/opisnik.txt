@@ -1,0 +1,108 @@
+1.png
+Bulbasaur
+Stage1, TypeGrass, Gen1
+2.png
+Ivysaur
+Stage2, TypeGrass, Gen1
+3.png
+Venusaur
+Stage3, TypeGrass, Gen1
+4.png
+Charmander
+Stage1, TypeFire, Gen1
+5.png
+Charmeleon
+Stage2, TypeFire, Gen1
+6.png
+Charizard
+Stage3, TypeFire, Gen1
+7.png
+Squirtle
+Stage1, TypeWater, Gen1
+8.png
+Wartortle
+Stage2, TypeWater, Gen1
+9.png
+Blastoise
+Stage3, TypeWater, Gen1
+152.png
+Chikorita
+Stage1, TypeGrass, Gen2
+153.png
+Bayleef
+Stage2, TypeGrass, Gen2
+154.png
+Meganium
+Stage3, TypeGrass, Gen2
+155.png
+Cyndaquil
+Stage1, TypeFire, Gen2
+156.png
+Quilava
+Stage2, TypeFire, Gen2
+157.png
+Typhlosion
+Stage3, TypeFire, Gen2
+158.png
+Totodile
+Stage1, TypeWater, Gen2
+159.png
+Croconaw
+Stage2, TypeWater, Gen2
+160.png
+Feraligatr
+Stage3, TypeWater, Gen2
+252.png
+Treecko
+Stage1, TypeGrass, Gen3
+253.png
+Grovyle
+Stage2, TypeGrass, Gen3
+254.png
+Sceptile
+Stage3, TypeGrass, Gen3
+255.png
+Torchic
+Stage1, TypeFire, Gen3
+256.png
+Combusken
+Stage2, TypeFire, Gen3
+257.png
+Blaziken
+Stage3, TypeFire, Gen3
+258.png
+Mudkip
+Stage1, TypeWater, Gen3
+259.png
+Marshtomp
+Stage2, TypeWater, Gen3
+260.png
+Swampert
+Stage3, TypeWater, Gen3
+387.png
+Turtwig
+Stage1, TypeGrass, Gen4
+388.png
+Grotle
+Stage2, TypeGrass, Gen4
+389.png
+Torterra
+Stage3, TypeGrass, Gen4
+390.png
+Chimchar
+Stage1, TypeFire, Gen4
+391.png
+Monferno
+Stage2, TypeFire, Gen4
+392.png
+Infernape
+Stage3, TypeFire, Gen4
+393.png
+Piplup
+Stage1, TypeWater, Gen4
+394.png
+Prinplup
+Stage2, TypeWater, Gen4
+395.png
+Empoleon
+Stage3, TypeWater, Gen4
